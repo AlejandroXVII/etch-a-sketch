@@ -10,22 +10,28 @@
     
     <div id="header">
         <h1>ETCH A SKETCH</h1>
-        <p>Drawn your own world!</p>
+        <h3>DRAWN YOUR OWN WORLD!</h3>
     </div>
     <div id="mainZone">
         <div id="leftMenu">
             <div id="colorSelector"></div>
-            <button class="btn">One color Mode</button>
-            <button class="btn">Rainbow Mode</button>
-            <button class="btn">Eraser</button>
-            <button class="btn">Clean All</button>
+            
+                <button class="btn">One color Mode</button>
+                <button class="btn">Rainbow Mode</button>
+                <button class="btn">Eraser</button>
+                <button class="btn">Clean All</button>
+            
+            <div id="sliderBox">
+                <p>CANVAS SIZE: 16x16</p>
+                <input type="range" min="4" max="100" value="16" class="slider" id="mySize">
+            </div>
         </div>
-        <div id="sketchBox" style="background-color: rgb(255, 255, 255);width: 500px;height: 500px;border: rgb(70, 68, 68) solid 3px;">
+        <div id="sketchBox" style="background-color: rgb(255, 255, 255);width: 500px;height: 500px;border: rgb(224, 185, 134) solid 3px;">
             <div id="paintingZone">
 
             </div>
         </div>
     </div>
-    <div id="footer"><H3>CREATE BY: M ALEJANDRO</H3></div>
+    <div id="footer"><H3>CREATE BY: AlejandroXVII</H3></div>
 </body>
 </html>
