@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-flow: column;
     align-items: center;
+    height: 100vh;
   }
 
   h1, h3, p{
@@ -74,3 +75,17 @@ body {
     justify-content: center;
     align-content: center;
   }
+  
+  #footer {
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 1;
+  }
+
+  #footerContent{
+    display: flex;
+    flex-flow: row;
+    gap: .5rem;
+    align-items: center;
+  }
+
